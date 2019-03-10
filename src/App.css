@@ -1,7 +1,45 @@
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/banner2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
 }
-
+.Game {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("./images/flat-desktop-wallpaper.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vmin;
+  min-width: 210.9vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+}
+.message {
+  height: 40px;
+  background-color: transparent;
+  border-radius: 30px;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -21,6 +59,38 @@
 
 .App-link {
   color: #61dafb;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
+
+input {
+  background-color: whitesmoke;
+  margin: 20px;
+  color: darkred;
+
+  width: 500px;
+  background-position: 10px 10px;
+  padding-left: 40px;
+
+  border-radius: 30px;
+}
+input::placeholder {
+  color: lightsteelblue;
+  font-size: 20px;
+}
+h1 {
+  font-family: Trattatello, fantasy;
+  color: gray;
+}
+h4 {
+  font-family: monospace;
+}
+button {
+  font-family: monospace;
+  font-size: 100px;
+  border-radius: 80px;
 }
 
 @keyframes App-logo-spin {
